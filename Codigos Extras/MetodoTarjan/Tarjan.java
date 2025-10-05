@@ -1,11 +1,11 @@
 import java.util.*;
 import java.io.*;
 
-public class TarjanPontes {
+public class Tarjan {
 
     private List<int[]> pontes;
 
-    public TarjanPontes(Grafo G) {
+    public Tarjan(Grafo G) {
         int V = G.V();
         pontes = new ArrayList<>();
         boolean[] visitado = new boolean[V];
@@ -84,7 +84,7 @@ public class TarjanPontes {
             System.exit(1);
         }
 
-        TarjanPontes tarjan = new TarjanPontes(G);
+        Tarjan tarjan = new Tarjan(G);
 
         System.out.println("\nPontes encontradas:");
         for (int[] aresta : tarjan.pontes()) {

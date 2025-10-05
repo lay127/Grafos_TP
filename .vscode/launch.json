@@ -3,6 +3,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FleuryComTarjan",
+            "request": "launch",
+            "mainClass": "FleuryComTarjan",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "Fleury",
+            "request": "launch",
+            "mainClass": "Fleury",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "GeradorDeGrafo2",
+            "request": "launch",
+            "mainClass": "GeradorDeGrafo2",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "MetodoTarjan",
+            "request": "launch",
+            "mainClass": "MetodoTarjan",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "Naive",
+            "request": "launch",
+            "mainClass": "Naive",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "MetodoNaive",
+            "request": "launch",
+            "mainClass": "MetodoNaive",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "Tarjan",
+            "request": "launch",
+            "mainClass": "Tarjan",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
             "name": "GeradorDeGrafo",
             "request": "launch",
             "mainClass": "GeradorDeGrafo",

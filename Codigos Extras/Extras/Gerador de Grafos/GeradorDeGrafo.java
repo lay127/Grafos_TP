@@ -221,7 +221,7 @@ public class GeradorDeGrafo {
                 System.exit(0);
         }
 
-        String caminhoArquivo = "Bases/Grafo.txt";
+        String caminhoArquivo = "Bases/Grafo10000.txt";
 
         try (FileWriter writer = new FileWriter(caminhoArquivo)) {
             // Cabeçalho: V e E com 2 espaços
