@@ -221,17 +221,23 @@ public class GeradorDeGrafo {
                 System.exit(0);
         }
 
-        // Define o caminho fixo
-        String caminhoArquivo = "../../Código/Bases/Grafo.txt";
+        String caminhoArquivo = "Bases/Grafo.txt";
 
         try (FileWriter writer = new FileWriter(caminhoArquivo)) {
-            writer.write(G.V() + " " + G.E() + "\n");
+            // Cabeçalho: V e E com 2 espaços
+            writer.write(G.V() + "  " + G.E() + "\n");
+
+            // Escreve arestas formatadas
             for (int v = 0; v < G.V(); v++) {
                 for (int w : G.adj(v)) {
-                    if (v < w) writer.write(v + " " + w + "\n");
+                    if (v < w) {
+                        // Cada número ocupa 7 caracteres alinhado à direita
+                        writer.write(String.format("%7d %7d\n", v, w));
+                    }
                 }
             }
-            System.out.println("✅ Grafo salvo em: " + caminhoArquivo);
+
+            System.out.println("Grafo salvo em: " + caminhoArquivo);
         } catch (IOException ex) {
             System.out.println("Erro ao salvar o arquivo: " + ex.getMessage());
         }

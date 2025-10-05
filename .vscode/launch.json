@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GeradorDeGrafo",
+            "request": "launch",
+            "mainClass": "GeradorDeGrafo",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "TarjanPontes",
+            "request": "launch",
+            "mainClass": "TarjanPontes",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "TempoDeExecução",
+            "request": "launch",
+            "mainClass": "TempoDeExecução",
+            "projectName": "Grafos_TP_769046a"
+        },
+        {
+            "type": "java",
+            "name": "Run TarjanPontes",
+            "request": "launch",
+            "mainClass": "MetodoTarjan.TarjanPontes",
+            "projectName": "Grafos_TP",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Naive",
+            "request": "launch",
+            "mainClass": "Naive",
+            "projectName": "Grafos_TP",
+            "console": "integratedTerminal"
+        }
+    ]
+}

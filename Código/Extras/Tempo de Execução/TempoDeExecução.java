@@ -3,7 +3,7 @@ public class TempoDeExecução {
         long tempoInicial = System.currentTimeMillis();
 
         // execução do método
-        System.out.println("oi");
+
 
         long tempoFinal = System.currentTimeMillis();
         System.out.println("O metodo foi executado em " + (tempoFinal - tempoInicial) + " ms");
