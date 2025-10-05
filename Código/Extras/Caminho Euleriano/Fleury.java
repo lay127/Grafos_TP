@@ -66,7 +66,10 @@ public class Fleury {
         return edges;
     }
 
-    // public static void main(String[] args) {
+    public static void main(String[] args) {
+
+        System.out.println("oi");
+
     //     int v = 4;
     //     List<Integer>[] adj = new ArrayList[v];
     //     for (int i = 0; i < v; i++) adj[i] = new ArrayList<>();
@@ -83,7 +86,7 @@ public class Fleury {
     //         System.out.print(res.get(i)[0] + "-" + res.get(i)[1]);
     //         if (i != res.size() - 1) System.out.print(", ");
     //     }
-    // }
+    }
 }
 
 // Fonte: https://www.geeksforgeeks.org/dsa/fleurys-algorithm-for-printing-eulerian-path/
